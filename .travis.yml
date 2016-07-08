@@ -11,6 +11,11 @@ script:
 - bundle exec htmlproofer ./_site/sxarchipelagos --only-4xx --check-favicon --check-html --empty-alt-ignore
 
 
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - master     # test the master branch
+
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer

@@ -7,8 +7,8 @@ permalink:           none
 title:               "sx archipelagos"
 tagline:             ''
 description:         'a Small Axe journal of digital practice'
-url:                 'http://smallaxe.net'
-baseurl:             '/sxarchipelagos'
+url:                 'http://sx-archipelagos.github.io/'
+baseurl:             '/sxa'
 githuburl:           'https://github.com/sx-archipelagos/sxa'
 
 # Colophon
@@ -55,9 +55,6 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Gems
-gems:
-  - jekyll-sitemap
 
 
 # About/contact
