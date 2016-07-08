@@ -7,8 +7,8 @@ rvm:
 # the `install` step will run `bundle install` by default.
 
 script:
-- bundle exec jekyll build -d _site/sxarchipelagos
-- bundle exec htmlproofer ./_site/sxarchipelagos --only-4xx --check-favicon --check-html --empty-alt-ignore
+- bundle exec jekyll build -d _site/sxa
+- bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html --empty-alt-ignore
 
 
 # branch whitelist, only for GitHub Pages
